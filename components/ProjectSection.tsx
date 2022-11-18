@@ -49,7 +49,7 @@ export const ProjectSection: FC<Props> = ({
             position === "left" ? "lg:items-end" : "lg:items-start"
           } gap-3`}>
           <div className="space-y-1">
-            <p className=" text-purple-500 font-montserrat font-semibold tracking-wider">
+            <p className=" text-perfume-500 font-montserrat font-semibold tracking-wider">
               Project {index}
             </p>
             <p className="text-xl uppercase font-bold font-montserrat tracking-wider text-gray-700">
@@ -60,11 +60,11 @@ export const ProjectSection: FC<Props> = ({
           <p className="text-gray-500 leading-relaxed tracking-tight">
             {subtitle}
           </p>
-          <div className="flex flex-wrap gap-4 text-purple-700 text-sm font-semibold">
+          <div className="flex flex-wrap gap-4 text-perfume-700 text-sm font-semibold">
             {chips.map(chip => (
               <div
                 key={chip.id}
-                className="bg-purple-50 px-3 py-1 rounded-full whitespace-nowrap">
+                className="bg-perfume-50 px-3 py-1 rounded-full whitespace-nowrap">
                 {chip.name}
               </div>
             ))}
@@ -73,7 +73,7 @@ export const ProjectSection: FC<Props> = ({
         <div className="flex items-center gap-4">
           {buttons.map(button => (
             <Link href={button.redirect} key={button.id}>
-              <button className="flex items-center gap-3 text-purple-700 border border-purple-700 bg-purple-100 p-2 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+              <button className="flex items-center gap-3 text-perfume-700 border border-perfume-700 bg-perfume-100 p-2 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
                 {button.icon}
                 <span>{button.name}</span>
               </button>

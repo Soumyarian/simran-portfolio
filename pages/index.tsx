@@ -32,7 +32,7 @@ const Home: NextPage = () => {
           <div className="flex flex-col-reverse gap-6 lg:gap-2 lg:flex-row">
             <div className="flex flex-col lg:flex-[3] justify-center xl:items-start md:items-center gap-3 lg:gap-6">
               <div className="flex flex-col gap-2 lg:gap-3">
-                <h1 className="text-lg text-purple-500 font-medium tracking-wider">
+                <h1 className="text-lg text-perfume-500 font-medium tracking-wider">
                   Hi, my name is
                 </h1>
                 <div className="space-y-1">
@@ -51,12 +51,12 @@ const Home: NextPage = () => {
                   Currently, I’m focused on building accessible, human-centered
                   products at Upstatement.
                 </p>
-                <button className="block text-purple-700 border border-purple-700 bg-purple-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+                <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
                   Explore projects!
                 </button>
               </div>
             </div>
-            <div className="bg-purple-100 lg:bg-none p-3 lg:p-0 flex items-center justify-center rounded-md lg:flex-[2]">
+            <div className="bg-perfume-100 lg:bg-transparent p-3 lg:p-0 flex items-center justify-center rounded-md lg:flex-[2]">
               <HeaderCreative />
             </div>
           </div>
@@ -77,7 +77,7 @@ const Home: NextPage = () => {
             </p>
             <p className="text-gray-500">
               Fast-forward to today, and I’ve had the privilege of working at{" "}
-              <span className="text-purple-500 font-medium cursor-pointer">
+              <span className="text-perfume-500 font-medium cursor-pointer">
                 an advertising agency, a start-up
               </span>
               , a huge corporation, and a student-led design studio. My main
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="w-full flex justify-start lg:justify-center items-center flex-1">
-            <div className="w-full h-auto lg:w-80 lg:h-80 rounded-md overflow-hidden lg:shadow-2xl lg:shadow-purple-500">
+            <div className="w-full h-auto lg:w-80 lg:h-80 rounded-md overflow-hidden lg:shadow-2xl lg:shadow-perfume-500">
               <Image
                 alt="profile"
                 src="/profile_picture.jpeg"
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className="min-h-screen flex flex-col justify-center items-center px-2 lg:px-60 space-y-3 py-10">
-        <h1 className="text-purple-500 font-semibold tracking-wider">
+        <h1 className="text-perfume-500 font-semibold tracking-wider">
           What’s Next?
         </h1>
         <div className="space-y-6 flex flex-col items-center">
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
               say hi, I’ll try my best to get back to you!
             </p>
           </div>
-          <button className="block text-purple-700 border border-purple-700 bg-purple-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
+          <button className="block text-perfume-700 border border-perfume-700 bg-perfume-100 p-3 rounded-md text-sm font-medium font-montserrat tracking-wider uppercase">
             say hello
           </button>
         </div>
