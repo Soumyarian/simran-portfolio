@@ -8,7 +8,7 @@ export const Sidebar = () => {
   return (
     <>
       <div
-        className="block text-2xl text-perfume-700"
+        className="block lg:hidden text-2xl text-perfume-700"
         onClick={() => setShow(true)}>
         <SlMenu />
       </div>
